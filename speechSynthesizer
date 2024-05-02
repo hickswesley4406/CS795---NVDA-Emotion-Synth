@@ -51,7 +51,7 @@ def set_speech_pitch(emotion):
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
     @script(
-        description=_("Announces the window class name of the current focus object"),
+        description=_("Speech Customization: Modify Speech Parameters"),
         gesture="kb:NVDA+leftArrow"
     )
     def script_announceWindowClassName(self, gesture):
